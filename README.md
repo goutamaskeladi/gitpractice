@@ -9,12 +9,14 @@ Backup/Archive, Versioning/History, Undo Changes, Comparing, Collaboration/Teamw
 
 # types
 Two main types - Centralized, Decentralized/Distributed.
-Centralized - Subversion, CVS - Requires connection to central server for most operations.
-Distributed - Git - Most operations are local. Central server not required. Later push commits made on your local branch to a remote repository.
+* Centralized - Subversion, CVS - Requires connection to central server for most operations.
+* Distributed - Git - Most operations are local. Central server not required. Later push the commits made on your local branch to a remote repository.
 
 # commonly used git commands
 
-  * To check the git version - git version
+  * To check the git version, 
+  
+        - git version
 
   * To set git config,
 
@@ -22,8 +24,30 @@ Distributed - Git - Most operations are local. Central server not required. Late
         - git config --global user.email "<Your email>"
         - git config --global --list 
 
-  * To clone existing repository from github - git clone <github-repository-path>
+  * To clone existing repository from github,
+  
+        - git clone <github-repository-path>
 
-  * To check the status - git status
+  * To check the status,
+  
+        - git status
+  
+  * To add files into staging area,
+  
+        - git add <filename> or to add all files git add .
+ 
+  * To commit to the local repository,
+  
+        - git commit -m "<enter-the-description>"
+  
+  * To add an existing local repository into remote repository,
+  
+        - git remote add origin <github-repo-url>
+ 
+  * To push remote repository, 
+  
+        - git push origin <branch>
+ 
+  
 
   
