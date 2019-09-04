@@ -48,6 +48,30 @@ Two main types - Centralized, Decentralized/Distributed.
   
         - git push origin <branch>
  
+  * To check git config,
+
+        - git config --global --list
+
+  * To initialize empty git repository,
+
+        - git init or git init <repository-name>
+
+  * To see all kinds of files and folders(linux command),
+
+       - ls -al
+
+  * To add README.md file,
+
+       - git add README.md
+
+  * To update the local repository,
+
+       - git pull origin <branch-name>
+
+  * To unstage a file,
+
+       - git rm --cached <file-name> i.e git rm --cached README.md
+
   
 
   
