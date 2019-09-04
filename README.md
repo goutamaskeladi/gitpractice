@@ -72,6 +72,14 @@ Two main types - Centralized, Decentralized/Distributed.
 
        - git rm --cached <file-name> i.e git rm --cached README.md
 
-  
+  * To remove the .git file(linux command),
 
-  
+       - rm -rf .git
+ 
+  * To remove file and directory(linux command),
+
+       - rm <file-name> or rmdir <folder-name>
+
+  * To add and commit process into one step,
+
+       - git commit -am "<commit-description>"
