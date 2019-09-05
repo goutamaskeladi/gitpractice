@@ -120,19 +120,11 @@ Two main types - Centralized, Decentralized/Distributed.
 
         - start <file-name> i.e start README.md
 
-  * To change git config edit ~/.gitconfig i.e vim ~/.gitconfig
-
-  * To ignore unwanted files and folders: .gitignore
-         
-            Specific File: MyFile.ext
-            File Pattern: *.ext or *.log
-            Folder: my-folder/ or log/
-
-   * To check the difference use,
+  * To check the difference use,
    
-        -  git diff  (type q to quit)
+        - git diff  (type q to quit)
 
-   * To rebase,
+  * To rebase,
 
         -  git checkout <branch-name> i.e git checkout feature
 
@@ -140,33 +132,41 @@ Two main types - Centralized, Decentralized/Distributed.
 
         -  git merge feature
 
-    * To abort rebase,
+   * To abort rebase,
 
-        - git rebase --abort
+         - git rebase --abort
 
-    * To stash,
+   * To stash,
 
-        - git stash
+         - git stash
 
-        - git stash list
+         - git stash list
 
-        - git stash apply
+         - git stash apply
 
-     * Tagging,
+    * Tagging,
 
-        - git tag
+         - git tag
 
-        - git tag -a v1.4 -m "My version 1.4"
+         - git tag -a v1.4 -m "My version 1.4"
 
-        - git tag v1.4
+         - git tag v1.4
 
-        - git show v1.4
+         - git show v1.4
 
-        - git tag -a v1.2 9fcebo2
+         - git tag -a v1.2 9fcebo2
 
-        - git push origin --tags
+         - git push origin --tags
 
-        - git tag -d v1.4
+         - git tag -d v1.4
+        
+   * To change git config edit ~/.gitconfig i.e vim ~/.gitconfig
+
+   * To ignore unwanted files and folders: .gitignore
+         
+            Specific File: MyFile.ext
+            File Pattern: *.ext or *.log
+            Folder: my-folder/ or log/
 
       
 
