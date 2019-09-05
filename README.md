@@ -152,6 +152,24 @@ Two main types - Centralized, Decentralized/Distributed.
 
         - git stash apply
 
+     * Tagging,
+
+        - git tag
+
+        - git tag -a v1.4 -m "My version 1.4"
+
+        - git tag v1.4
+
+        - git show v1.4
+
+        - git tag -a v1.2 9fcebo2
+
+        - git push origin --tags
+
+        - git tag -d v1.4
+
+      
+
      
 
     
