@@ -82,38 +82,52 @@ Two main types - Centralized, Decentralized/Distributed.
 
   * To add and commit process into one step,
 
-       - git commit -am "<commit-description>"
+        - git commit -am "<enter-the-description>"
 
   * To check the list of branches present in the repository,
 
-       - git branch
+        - git branch
 
   * To create a new branch,
 
-       - git branch <branch-name> i.e git branch development
+        - git branch <branch-name> i.e git branch development
  
   * To delete a branch,
 
-       - git branch -d <branch-name> i.e git branch -d development
+        - git branch -d <branch-name> i.e git branch -d development
  
   * To show git log in one line,
   
-       - git log --oneline
+        - git log --oneline
 
   * To merge the branch,
     
-       - git merge <branch-name> i.e git merge development
+        - git merge <branch-name> i.e git merge development
 
   * To abort the merge,
 
-       - git merge --abort
+        - git merge --abort
 
   * To create a new branch and switch to it,
 
-       - git checkout -b <branch-name> i.e git checkout -b feature
+        - git checkout -b <branch-name> i.e git checkout -b feature
 
   * To merge master contents in feature branch and to condense merge in one line,
 
-       - git merge <branch-name> <branch-name> i.e git merge feature master
+        - git merge <branch-name> <branch-name> i.e git merge feature master
 
-  
+  * To open the files from command prompt,
+
+        - start <file-name> i.e start README.md
+
+  * To change git config edit ~/.gitconfig i.e vim ~/.gitconfig
+
+  * To ignore unwanted files and folders: .gitignore
+         
+            Specific File: MyFile.ext
+            File Pattern: *.ext or *.log
+            Folder: my-folder/ or log/
+
+   * To check the difference use - git diff  (type q to quit)
+
+
