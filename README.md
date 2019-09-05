@@ -144,7 +144,7 @@ Two main types - Centralized, Decentralized/Distributed.
 
          - git stash apply
 
-    * Tagging,
+   * To Tagging,
 
          - git tag
 
@@ -167,6 +167,18 @@ Two main types - Centralized, Decentralized/Distributed.
             Specific File: MyFile.ext
             File Pattern: *.ext or *.log
             Folder: my-folder/ or log/
+ 
+   * To alias,
+
+         - git log --all --graph --decorate --oneline
+
+         - git config --global alias.hist "log --all --graph --decorate --oneline" 
+
+         - git hist
+
+    
+
+   
 
       
 
