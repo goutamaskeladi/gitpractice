@@ -144,7 +144,7 @@ Two main types - Centralized, Decentralized/Distributed.
 
          - git stash apply
 
-    * Tagging,
+   * Tagging,
 
          - git tag
 
@@ -176,9 +176,11 @@ Two main types - Centralized, Decentralized/Distributed.
 
          - git hist
 
-    * To revert,
+   * To revert,
 
          - git revert HEAD  
+         
+         - git revert <commit-id>
 
          - git checkout <commit-id>
 
