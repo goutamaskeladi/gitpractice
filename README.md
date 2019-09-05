@@ -95,3 +95,15 @@ Two main types - Centralized, Decentralized/Distributed.
   * To delete a branch,
 
        - git branch -d <branch-name> i.e git branch -d development
+ 
+  * To show git log in one line,
+  
+       - git log --oneline
+
+  * To merge the branch,
+    
+       - git merge <branch-name> i.e git merge development
+
+  * To abort the merge,
+
+       - git merge --abort
