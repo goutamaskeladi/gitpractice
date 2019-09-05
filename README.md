@@ -176,6 +176,14 @@ Two main types - Centralized, Decentralized/Distributed.
 
          - git hist
 
+    * To revert,
+
+         - git revert HEAD  
+
+         - git checkout <commit-id>
+
+      
+
     
 
    
