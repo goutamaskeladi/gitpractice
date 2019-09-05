@@ -82,4 +82,16 @@ Two main types - Centralized, Decentralized/Distributed.
 
   * To add and commit process into one step,
 
-        - git commit -am "<commit-description>"
+       - git commit -am "<commit-description>"
+
+  * To check the list of branches present in the repository,
+
+       - git branch
+
+  * To create a new branch,
+
+       - git branch <branch-name> i.e git branch development
+ 
+  * To delete a branch,
+
+       - git branch -d <branch-name> i.e git branch -d development
