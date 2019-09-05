@@ -107,3 +107,13 @@ Two main types - Centralized, Decentralized/Distributed.
   * To abort the merge,
 
        - git merge --abort
+
+  * To create a new branch and switch to it,
+
+       - git checkout -b <branch-name> i.e git checkout -b feature
+
+  * To merge master contents in feature branch and to condense merge in one line,
+
+       - git merge <branch-name> <branch-name> i.e git merge feature master
+
+  
