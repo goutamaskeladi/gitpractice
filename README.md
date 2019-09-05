@@ -144,4 +144,14 @@ Two main types - Centralized, Decentralized/Distributed.
 
         - git rebase --abort
 
+    * To stash,
+
+        - git stash
+
+        - git stash list
+
+        - git stash apply
+
+     
+
     
