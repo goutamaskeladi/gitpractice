@@ -58,28 +58,28 @@ Two main types - Centralized, Decentralized/Distributed.
 
   * To see all kinds of files and folders(linux command),
 
-       - ls -al
+        - ls -al
 
   * To add README.md file,
 
-       - git add README.md
+        - git add README.md
 
   * To update the local repository,
 
-       - git pull origin <branch-name>
+        - git pull origin <branch-name>
 
   * To unstage a file,
 
-       - git rm --cached <file-name> i.e git rm --cached README.md
+        - git rm --cached <file-name> i.e git rm --cached README.md
 
   * To remove the .git file(linux command),
 
-       - rm -rf .git
+        - rm -rf .git
  
   * To remove file and directory(linux command),
 
-       - rm <file-name> or rmdir <folder-name>
+        - rm <file-name> or rmdir <folder-name>
 
   * To add and commit process into one step,
 
-       - git commit -am "<commit-description>"
+        - git commit -am "<commit-description>"
