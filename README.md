@@ -128,6 +128,20 @@ Two main types - Centralized, Decentralized/Distributed.
             File Pattern: *.ext or *.log
             Folder: my-folder/ or log/
 
-   * To check the difference use - git diff  (type q to quit)
+   * To check the difference use,
+   
+        -  git diff  (type q to quit)
 
+   * To rebase,
 
+        -  git checkout <branch-name> i.e git checkout feature
+
+        -  git rebase master
+
+        -  git merge feature
+
+    * To abort rebase,
+
+        - git rebase --abort
+
+    
